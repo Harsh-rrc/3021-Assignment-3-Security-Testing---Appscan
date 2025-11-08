@@ -1,0 +1,6 @@
+1. How did the AppScan CodeSweep scan performance compare to the previous code scanners you used? Be specific.
+- AppScan CodeSweep ran faster and provided clearer explanations of security issues compared to CodeQL and Bandit. 
+I noticed that CodeSweep highlighted issues like hardcoded secrets and SQL injection risks more directly, while 
+CodeQL gave more advanced but complex details. Bandit mainly focused on Python-specific issues, but CodeSweep 
+worked well across multiple languages. Overall, CodeSweep’s IDE integration and GitHub automation made it easier 
+to spot and fix issues during development.
